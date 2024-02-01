@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import StateForm from './Components/StateForm';
+import StateFormUC from './Components/StateFormUC';
+import FormTextarea from './Components/FormTextarea';
+import FormSelect from './Components/FormSelect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +15,10 @@ root.render(
   <React.StrictMode>
     <App />
     <StateForm/>
+    <StateFormUC/>
+    <FormTextarea/>
+    <FormSelect/>
+
 
   </React.StrictMode>
 );
