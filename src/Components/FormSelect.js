@@ -28,7 +28,7 @@ const FormSelect = () => {
          <option value="cat">猫</option>
          <option value="pig">豚</option>
         </select>
-        <button value="button" onClick={show}>送信</button>
+        <button type="button" onClick={show}>送信</button>
     </form>
   )
 }

@@ -7,6 +7,8 @@ import StateForm from './Components/StateForm';
 import StateFormUC from './Components/StateFormUC';
 import FormTextarea from './Components/FormTextarea';
 import FormSelect from './Components/FormSelect';
+import FormList from './Components/FormList';
+import FormRadio from './Components/FormRadio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +20,8 @@ root.render(
     <StateFormUC/>
     <FormTextarea/>
     <FormSelect/>
-
+    <FormList/>
+    <FormRadio/>
 
   </React.StrictMode>
 );
