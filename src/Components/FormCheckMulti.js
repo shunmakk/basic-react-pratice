@@ -15,7 +15,7 @@ const FormCheckMulti = () => {
         if(e.target.checked){
             fa.push(e.target.value);
         }else{
-            fa.splice(fa.indexOf(),1)
+            fa.splice(fa.indexOf(e.target.value),1)
         }
 
         setForm({
@@ -24,7 +24,7 @@ const FormCheckMulti = () => {
         });
     };
 
-    const show = () => {
+    const show = e => {
         console.log(`好きな動物:${form.animal}`)
     }
 

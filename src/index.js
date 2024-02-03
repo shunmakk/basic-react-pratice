@@ -11,6 +11,10 @@ import FormList from './Components/FormList';
 import FormRadio from './Components/FormRadio';
 import FormCheck from './Components/FormCheck';
 import FormCheckMulti from './Components/FormCheckMulti';
+import FormFile from './Components/FormFile';
+import StateNest from './Components/StateNest';
+import StateNestImmer from './Components/StateNestImmer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +22,7 @@ root.render(
 
   <React.StrictMode>
     <App />
+    {/* フォームの更新 */}
     <StateForm/>
     <StateFormUC/>
     <FormTextarea/>
@@ -26,6 +31,11 @@ root.render(
     <FormRadio/>
     <FormCheck/>
     <FormCheckMulti/>
+    <FormFile/>
+    <StateNest/>
+    <StateNestImmer/>
+    {/* 配列の更新 */}
+
 
   </React.StrictMode>
 );
