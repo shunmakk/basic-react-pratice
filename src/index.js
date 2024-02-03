@@ -14,6 +14,7 @@ import FormCheckMulti from './Components/FormCheckMulti';
 import FormFile from './Components/FormFile';
 import StateNest from './Components/StateNest';
 import StateNestImmer from './Components/StateNestImmer';
+import StateTodo from './Components/StateTodo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,6 +36,7 @@ root.render(
     <StateNest/>
     <StateNestImmer/>
     {/* 配列の更新 */}
+    <StateTodo/>
 
 
   </React.StrictMode>
