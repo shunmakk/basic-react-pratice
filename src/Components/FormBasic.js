@@ -18,7 +18,7 @@ export default function FormBasic() {
         resolve();
         console.log(data);
       }, 4000);
-    });
+    })
   }
   const onerror = err => console.log(err);
 
