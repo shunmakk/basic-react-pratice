@@ -16,6 +16,7 @@ import StateNest from './Components/StateNest';
 import StateNestImmer from './Components/StateNestImmer';
 import StateTodo from './Components/StateTodo';
 import FormBasic from './Components/FormBasic';
+import FormYup from './Components/FormYup';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -40,6 +41,8 @@ root.render(
     <StateTodo/>
      {/* React Hook Form */}
      <FormBasic/>
+     <FormYup/>
+    
      
 
 
