@@ -17,6 +17,9 @@ import StateNestImmer from './Components/StateNestImmer';
 import StateTodo from './Components/StateTodo';
 import FormBasic from './Components/FormBasic';
 import FormYup from './Components/FormYup';
+import LazyBasic from './Components/LazyBasic';
+import LazyMulti from './Components/LazyMulti';
+import SuspenceSimple from './Components/SuspenceSimple';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -37,11 +40,19 @@ root.render(
     <FormFile/>
     <StateNest/>
     <StateNestImmer/>
-    {/* 配列の更新 */}
+    {/* ⭐️配列の更新 */}
     <StateTodo/>
-     {/* React Hook Form */}
+     {/* ⭐️React Hook Form */}
      <FormBasic/>
      <FormYup/>
+      {/* 組み込みコンポーネント */}
+      <LazyBasic/>
+      <br/>
+      <LazyMulti/>
+      <SuspenceSimple/>
+      
+    
+
     
      
 
