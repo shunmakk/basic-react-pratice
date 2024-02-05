@@ -21,6 +21,7 @@ import LazyBasic from './Components/LazyBasic';
 import LazyMulti from './Components/LazyMulti';
 import SuspenceSimple from './Components/SuspenceSimple';
 import SuspenceResult from './Components/SuspenceResult';
+import StyledBasic from './Components/StyledBasic';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -52,6 +53,8 @@ root.render(
       <LazyMulti/>
       <SuspenceSimple/>
       <SuspenceResult/>
+
+      <StyledBasic/>
      
       
 
