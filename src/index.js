@@ -20,6 +20,7 @@ import FormYup from './Components/FormYup';
 import LazyBasic from './Components/LazyBasic';
 import LazyMulti from './Components/LazyMulti';
 import SuspenceSimple from './Components/SuspenceSimple';
+import SuspenceResult from './Components/SuspenceResult';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -50,13 +51,9 @@ root.render(
       <br/>
       <LazyMulti/>
       <SuspenceSimple/>
-      
-    
-
-    
+      <SuspenceResult/>
      
-
-
+      
 
   </React.StrictMode>
 );
