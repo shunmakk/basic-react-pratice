@@ -29,6 +29,7 @@ root.render(
 
 
   <React.StrictMode>
+    <div className='allWrapper'>
     <App />
     {/* フォームの更新 */}
     <StateForm/>
@@ -57,7 +58,7 @@ root.render(
       <StyledBasic/>
      
       
-
+      </div>
   </React.StrictMode>
 );
 
